@@ -1,4 +1,5 @@
-neurolibre : [![Binder](http://binder-wksh2.conp.cloud/badge_logo.svg)](http://binder-wksh2.conp.cloud/v2/gh/zhangyu2ustc/gcn_tutorial_test/master?filepath=notebooks%2F)
+neurolibre : [![Binder](https://binder.conp.cloud/badge_logo.svg)](https://binder.conp.cloud/v2/gh/neurolibre/gcn_tutorial_test/master)
+
 public binder : [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zhangyu2ustc/gcn_tutorial_test/master?filepath=notebooks%2F)
 
 # GCN_tutorial
