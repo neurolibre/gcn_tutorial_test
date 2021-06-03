@@ -127,7 +127,7 @@ def load_fmri_data_from_lmdb(lmdb_filename,fmri_files=None,fmri_data_clean=None,
     fmri_sub_name = []
 
     ##########################################33
-    lmdb_env = lmdb.open(lmdb_filename, subdir=False)
+    lmdb_env = lmdb.open(lmdb_filename, subdir=False, readonly=True, lock=False)
     try:
         lmdb_txn = lmdb_env.begin()
         listed_fmri_files = loads(lmdb_txn.get(b'__keys__'))
