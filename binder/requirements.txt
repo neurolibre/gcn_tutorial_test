@@ -1,0 +1,12 @@
+lmdb==1.2.1
+nilearn==0.7.1
+pandas==1.2.4
+scikit-learn==0.24.2
+scipy==1.6.3
+torch==1.8.0+cpu
+torchvision==0.9.1
+--find-links https://pytorch-geometric.com/whl/torch-1.8.0+cpu.html
+torch-cluster
+torch-scatter
+torch-sparse
+torch-geometric
